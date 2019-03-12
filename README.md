@@ -1,4 +1,6 @@
-# inventory-selection-system
+## inventory-selection-system
+
+- An unity project, made in 16 hours.
 
 ## Contributors
 - Purna Prakash Verma
