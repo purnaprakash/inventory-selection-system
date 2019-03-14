@@ -32,6 +32,8 @@ namespace Inventory
         public void OnEndDrag(PointerEventData eventData)
         {
             _canvasGroup.blocksRaycasts = true;
+            if (transform.parent == _parentDuringMove)
+                selectedItemButton.ResetParent();
         }
     }
 }
